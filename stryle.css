@@ -1,0 +1,97 @@
+* body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #23232e;
+    height: 8vh;  
+} /*para separar titulo e menus, imagine que é a caixa pai do header */
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+} /* todos os <a> da página vão possuir essas caracteristicas */
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+} /*o .logo e uma classe que atribui para a parte do logo */
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+/* Fim da nav bar */
+
+main {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.text {
+    display: flex;
+    background-color: rgb(54, 72, 81);
+    flex-direction: column;
+    width: 100%;
+    height: 8vh;
+    justify-content:center;
+    align-items: center;
+    color: azure; 
+}
+
+.text h2 {
+    margin: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* aqui finaliza o titulo da página */
+
+.img-project {
+    display: grid;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, auto);  
+}
+
+.img-project img {
+    margin: 32px;
+    
+}
+/*aqui finaliza as imagens */
+
+footer {
+    display: flex;
+    background-color: #23232e;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 8vh;
+    bottom: 0;
+    left: 0;
+}
+
+.rodape {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+
